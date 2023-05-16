@@ -1,0 +1,10 @@
+{
+  "Inventory": [],
+  "Money": 5500,
+  "VehicleStorageUpgrades": {},
+  "BusinessUpgrades": {
+    "grocery": 0
+  },
+  "StoredVehicles": [
+  ]
+}

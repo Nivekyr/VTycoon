@@ -1,0 +1,137 @@
+name, position_x, position_y, position_z, blipSprite, Purchased, Price, Revenues, StoreInventory, MaxStoreInventory, ItemPrice, Interval, StockUpgradeLevel, ItemPriceUpgradeLevel, IntervalUpgradeLevel, type,Inventory,SubType,AutomaticRefill,Tier
+Rob's Liquor (Grand Senora Desert),1166.53,2705.04,38.17,52,False,5000,0,0,100,1,15,0,0,0,Grocery,,Fruit,False,2
+Rob's Liquor (Morningwood),-1489.66,-381.94,40.16,52,False,10000,0,0,100,1,15,0,0,0,Grocery,,Fruit,False,2
+Rob's Liquor (Murrieta Heights),1135.77,-982.21,46.41,52,False,15000,0,0,100,1,15,0,0,0,Grocery,,Fruit,False,2
+Rob's Liquor (Vespucci),-1221.6,-908.79,12.33,52,False,20000,0,0,100,1,30,0,0,0,Grocery,,Fruit,False,2
+Rob's Liquor (Banham Canyon),-2970.01,390.64,15.04,52,False,25000,0,0,100,1,30,0,0,0,Grocery,,Fruit,False,2
+Liquor Ace (Sandy Shores),1393.45,3601.46,34.98,52,False,30000,0,0,100,1,30,0,0,0,Grocery,,Fruit,False,2
+LTD Gasoline (Mirror Park),1158.96,-323.21,69.21,52,False,35000,0,0,100,1,45,0,0,0,Grocery,,Fruit,False,2
+LTD Gasoline (Grapeseed),1700.51,4928.25,42.06,52,False,40000,0,0,100,1,45,0,0,0,Grocery,,Fruit,False,2
+LTD Gasoline (Richman Glen),-1824.45,790.36,138.2,52,False,45000,0,0,100,1,45,0,0,0,Grocery,,Fruit,False,2
+LTD Gasoline (Little Seoul),-711.4,-915.17,19.22,52,False,50000,0,0,100,1,60,0,0,0,Grocery,,Fruit,False,2
+LTD Gasoline (Davis),-55.95,-1749.46,29.01,52,False,60000,0,0,100,1,60,0,0,0,Grocery,,Fruit,False,2
+24/7 Supermarket (Sandy Shores),1963.65,3743.06,32.34,52,False,70000,0,0,100,1,60,0,0,0,Grocery,,Fruit,False,2
+24/7 Supermarket (Grand Senora Desert),2679.62,3284.11,55.24,52,False,80000,0,0,100,1,75,0,0,0,Grocery,,Fruit,False,2
+24/7 Supermarket (Mont Chiliad),1732.19,6413.44,35.04,52,False,90000,0,0,100,1,75,0,0,0,Grocery,,Fruit,False,2
+24/7 Supermarket (Monts Tataviam),2555.97,385.25,108.62,52,False,100000,0,0,100,1,75,0,0,0,Grocery,,Fruit,False,2
+24/7 Supermarket (Chumash),-3242.87,1004.9,12.83,52,False,110000,0,0,100,1,90,0,0,0,Grocery,,Fruit,False,2
+24/7 Supermarket (Harmony),544.34,2670.23,42.16,52,False,120000,0,0,100,1,90,0,0,0,Grocery,,Fruit,False,2
+24/7 Supermarket (Banham Canyon),-3040.96,588.8,7.91,52,False,130000,0,0,100,1,90,0,0,0,Grocery,,Fruit,False,2
+24/7 Supermarket (Strawberry),29.24,-1345.24,29.5,52,False,140000,0,0,100,1,105,0,0,0,Grocery,,Fruit,False,2
+24/7 Supermarket (Vinewood),377.31,325.34,103.57,52,False,150000,0,0,100,1,105,0,0,0,Grocery,,Fruit,False,2
+Burger Shot (Vespucci),-1181.67,-882.93,13.80,628,False,250000,0,0,200,1,120,0,0,0,restaurant,,Burger,False,3
+Cool Beans Coffe Shop (Vespucci),-1208.73,-1125.13,7.83,628,False,350000,0,0,200,1,120,0,0,0,restaurant,,Burger,False,3
+Bean Machine (Vespucci),-1284.35,-1132.28,6.79,628,False,450000,0,0,200,1,120,0,0,0,restaurant,,Burger,False,3
+Wigwam Burger (Vespucci),-854.00,-1139.92,6.70,628,False,550000,0,0,200,1,135,0,0,0,restaurant,,Burger,False,3
+Lucky Plucker (Little Seoul),-585.26,-870.65,25.69,628,False,650000,0,0,200,1,135,0,0,0,restaurant,,Burger,False,3
+Bean Machine (Little Seoul VB),-657.68,-815.30,24.56,628,False,750000,0,0,200,1,135,0,0,0,restaurant,,Burger,False,3
+Taco Bomb (Little Seoul),-656.47,-677.50,31.51,628,False,850000,0,0,200,1,150,0,0,0,restaurant,,Burger,False,3
+Bean Machine (Little Seoul DPF),-836.86,-611.40,29.30,628,False,950000,0,0,200,1,150,0,0,0,restaurant,,Burger,False,3
+Bean Machine (Del Perro),-1547.71,-435.68,35.89,628,False,1050000,0,0,200,1,150,0,0,0,restaurant,,Burger,False,3
+Wigwam Burger (Del Perro),-1533.47,-452.43,35.88,628,False,1150000,0,0,200,1,165,0,0,0,restaurant,,Burger,False,3
+Up N Atom (Del Perro),-1547.36,-468.58,35.58,628,False,1350000,0,0,200,1,165,0,0,0,restaurant,,Burger,False,3
+Bean Machine (Vinewood West),-628.59,245.46,81.79,628,False,1550000,0,0,200,1,165,0,0,0,restaurant,,Burger,False,3
+Last Train In Los Santos (Vinewood West),-365.94,266.36,84.84,628,False,1750000,0,0,200,1,180,0,0,0,restaurant,,Burger,False,3
+Up N Atom (Vinewood centre),81.32,272.09,110.21,628,False,1950000,0,0,200,1,180,0,0,0,restaurant,,Burger,False,3
+Cluckin’ Bell (Burton),-136.18,-258.55,43.20,628,False,2150000,0,0,200,1,180,0,0,0,restaurant,,Burger,False,3
+Cafe Redemption (Pillbox Hill),-244.94,-773.30,32.45,628,False,2350000,0,0,200,1,195,0,0,0,restaurant,,Burger,False,3
+Wraps Fresh (Pillbox Hill),-268.47,-899.72,31.22,628,False,2550000,0,0,200,1,195,0,0,0,restaurant,,Burger,False,3
+Bean Machine (Pillbox Hill),-271.04,-980.51,31.21,628,False,2750000,0,0,200,1,195,0,0,0,restaurant,,Burger,False,3
+Chicken Bell (Chamberlain Hills),-185.10,-1428.33,31.48,628,False,2950000,0,0,200,1,210,0,0,0,restaurant,,Burger,False,3
+Lucky Plucker (Davis),129.98,-1469.99,29.36,628,False,3150000,0,0,200,1,210,0,0,0,restaurant,,Burger,False,3
+Ring of Fire Chilli House (Davis),164.49,-1455.23,29.14,628,False,3550000,0,0,200,1,210,0,0,0,restaurant,,Burger,False,3
+Bishop's Chicken (Davis),166.94,-1630.74,29.29,628,False,3950000,0,0,200,1,225,0,0,0,restaurant,,Burger,False,3
+Casey Diners (La Mesa),791.92,-735.04,27.51,628,False,4350000,0,0,200,1,225,0,0,0,restaurant,,Burger,False,3
+Cool Beans Coffee Shop (Mirror Park),1183.23,-410.76,67.68,628,False,4750000,0,0,200,1,225,0,0,0,restaurant,,Burger,False,3
+Hornys (Mirror Park),1234.39,-345.12,69.08,628,False,5150000,0,0,200,1,240,0,0,0,restaurant,,Burger,False,3
+Bishop's Chicken (Monts Tataviam),2580.64,461.79,108.60,628,False,5550000,0,0,200,1,240,0,0,0,restaurant,,Burger,False,3
+Up N Atom Diner (Mont Chiliad),1584.43,6448.16,25.15,628,False,5950000,0,0,200,1,240,0,0,0,restaurant,,Burger,False,3
+Bean Machine (Del Perro Beach),-1709.23,-1097.95,13.15,628,False,6350000,0,0,200,1,255,0,0,0,restaurant,,Burger,False,3
+Burger Shot (Del Perro Beach),-1693.73,-1093.29,13.18,628,False,6750000,0,0,200,1,255,0,0,0,restaurant,,Burger,False,3
+The Big Puffa (Del Perro Beach),-1612.77,-987.10,13.02,628,False,7150000,0,0,200,1,255,0,0,0,restaurant,,Burger,False,3
+Gas Station (Little Seoul / Lindsay Circus),-727.05,-940.62,19.02,361,False,8000000,0,0,300,1,270,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Davis / Grove Street),-77.46,-1763.82,29.52,361,False,8850000,0,0,300,1,270,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (La Puerta),-319.79,-1475.89,30.55,361,False,9700000,0,0,300,1,270,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Richman Glen),-1795.81,805.00,137.94,361,False,10550000,0,0,300,1,285,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Monts Tataviam),2576.64,361.18,107.88,361,False,11400000,0,0,300,1,285,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Mirror Park),1183.26,-335.17,68.60,361,False,12250000,0,0,300,1,285,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (La Mesa),814.53,-1027.51,25.67,361,False,13100000,0,0,300,1,300,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Davis / Davis Avenue),175.00,-1562.20,28.69,361,False,13950000,0,0,300,1,300,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Davis),-2101.50,-318.82,12.45,361,False,14800000,0,0,300,1,300,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Little Seoul / Calais Avenue),-527.60,-1210.07,17.61,361,False,15650000,0,0,300,1,315,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Lago Zancudo),-2555.55,2330.60,32.48,361,False,17350000,0,0,300,1,315,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Paleto Bay),176.10,6602.31,31.27,361,False,19050000,0,0,300,1,315,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Mont Chiliad),1701.93,6413.49,32.19,361,False,20750000,0,0,300,1,330,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Grapeseed),1686.00,4929.85,41.50,361,False,22450000,0,0,300,1,330,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Grand Senora Desert),2682.39,3262.37,54.66,361,False,24150000,0,0,300,1,330,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Route 68),1210.00,2662.02,37.23,361,False,25850000,0,0,300,1,345,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Sandy Shores),2006.42,3771.75,31.60,361,False,27550000,0,0,300,1,345,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Harmony),262.98,2610.34,44.28,361,False,29250000,0,0,300,1,345,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Sandy Shores / Grand Desert),1782.03,3310.10,40.66,361,False,30950000,0,0,300,1,360,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Strawberry),261.24,-1263.67,28.57,361,False,32650000,0,0,300,1,360,0,0,0,gas,,Refined Petrol,False,4
+Gas Station (Vinewood Centre),617.41,271.84,102.51,361,False,34350000,0,0,300,1,360,0,0,0,gas,,Refined Petrol,False,4
+Ammunition (Pillbox Hills),7.08,-1119.34,28.43,110,False,40000000,0,0,400,1,375,0,0,0,gunshop,,Fruit,False,6
+Ammunition (Little Seoul),-661.86,-947.56,21.61,110,False,45650000,0,0,400,1,375,0,0,0,gunshop,,Fruit,False,6
+Ammunition (Morningwood),-1318.00,-388.38,36.42,110,False,51300000,0,0,400,1,375,0,0,0,gunshop,,Fruit,False,6
+Ammunition (Hawick),239.36,-46.04,69.63,110,False,56950000,0,0,400,1,390,0,0,0,gunshop,,Fruit,False,6
+Ammunition (La Mesa),843.16,-1019.76,27.53,110,False,62600000,0,0,400,1,390,0,0,0,gunshop,,Fruit,False,6
+Ammunition (Chumash),-3159.22,1080.25,20.69,110,False,68250000,0,0,400,1,390,0,0,0,gunshop,,Fruit,False,6
+Ammunition (Route 68),-1112.36,2687.50,18.61,110,False,73900000,0,0,400,1,405,0,0,0,gunshop,,Fruit,False,6
+Ammunition (Sandy Shores),1700.24,3750.85,34.37,110,False,79550000,0,0,400,1,405,0,0,0,gunshop,,Fruit,False,6
+Ammunition (Monts Tataviam),2568.77,306.51,108.61,110,False,85200000,0,0,400,1,405,0,0,0,gunshop,,Fruit,False,6
+Ammunition (Paleto Bay),-323.96,6074.52,31.23,110,False,90850000,0,0,400,1,420,0,0,0,gunshop,,Fruit,False,6
+Ammunition (Cypress Flats),816.37,-2144.86,29.29,110,False,96500000,0,0,400,1,420,0,0,0,gunshop,,Fruit,False,6
+The Richman Hotel,-1285.30,295.18,64.26,770,False,150000000,0,0,500,1,420,0,0,0,hotel,,Fruit,False,7
+Templar Hotel (Legion Square),278.77,-1065.55,28.81,770,False,200000000,0,0,500,1,435,0,0,0,hotel,,Fruit,False,7
+Banner Hotel & Spa (Del Perro),-1666.80,-541.03,34.39,770,False,250000000,0,0,500,1,435,0,0,0,hotel,,Fruit,False,7
+Banner Hotel & Spa (Pillbox Hill),-277.00,-1064.53,25.21,770,False,300000000,0,0,500,1,435,0,0,0,hotel,,Fruit,False,7
+Eclipse Lodge (Hawick),-269.83,26.67,54.15,770,False,350000000,0,0,500,1,450,0,0,0,hotel,,Fruit,False,7
+Elkridge Hotel (Legion Square),283.65,-939.59,28.76,770,False,400000000,0,0,500,1,450,0,0,0,hotel,,Fruit,False,7
+Hedera Hotel (Del Perro),-1361.00,-795.42,18.74,770,False,450000000,0,0,500,1,450,0,0,0,hotel,,Fruit,False,7
+Hookah Place (Pillbox Hill),7.85,-979.67,28.93,770,False,500000000,0,0,500,1,465,0,0,0,hotel,,Fruit,False,7
+Opium Nights (Airport),-744.00,-2284.09,12.46,770,False,550000000,0,0,500,1,465,0,0,0,hotel,,Fruit,False,7
+Pegasus Hotel (Vinewood West),-311.00,226.11,87.30,770,False,600000000,0,0,500,1,480,0,0,0,hotel,,Fruit,False,7
+Rockford Dorset Hotel (Rockford Hills),-570.56,-446.71,33.54,770,False,650000000,0,0,500,1,480,0,0,0,hotel,,Fruit,False,7
+The Archipelago (Rockford Hills),-1096.56,-318.55,37.06,770,False,700000000,0,0,500,1,480,0,0,0,hotel,,Fruit,False,7
+The Generic Hotel (Vinewood West),-478.46,224.97,82.51,770,False,750000000,0,0,500,1,495,0,0,0,hotel,,Fruit,False,7
+The Gentry Manor Hotel (Vinewood West),-54.34,351.00,118.83,770,False,800000000,0,0,500,1,495,0,0,0,hotel,,Fruit,False,7
+Von Crastenburg Hotel (Pacific Bluffs),-1860.92,-355.01,48.64,770,False,850000000,0,0,500,1,495,0,0,0,hotel,,Fruit,False,7
+The Jetty (Pacific Bluffs),-2036.35,-262.35,22.78,770,False,900000000,0,0,500,1,510,0,0,0,hotel,,Fruit,False,7
+Venetian (Del Perro Beach),-1330.61,-1094.18,6.28,770,False,950000000,0,0,500,1,510,0,0,0,hotel,,Fruit,False,7
+Bayview Lodge,-701.34,5805.22,17.33,770,False,1000000000,0,0,500,1,510,0,0,0,hotel,,Fruit,False,7
+Vineyard,-1890.18,2044.36,140.87,93,False,2000000000,0,0,500,1,525,0,0,0,vineyard,,Fruit,False,8
+Golf Park,-1379.11,55.41,53.08,109,False,4000000000,0,0,500,1,525,0,0,0,golf,,Fruit,False,8
+Amusement Park,-1655.00,-1123.11,12.42,266,False,8000000000,0,0,500,1,525,0,0,0,park,,Fruit,False,8
+Casino,923.16,48.08,80.16,680,False,16000000000,0,0,500,1,540,0,0,0,casino,,Fruit,False,8
+Scientific laboratory,3420.21,3758.65,29.95,498,False,32000000000,0,0,500,1,540,0,0,0,labo,,Fruit,False,8
+Wind turbine field,2470.00,1588.00,32.12,769,False,64000000000,0,0,500,1,540,0,0,0,windturbine,,Fruit,False,8
+Sports Stadium,-272.93,-1907.45,27.15,546,False,128000000000,0,0,500,1,555,0,0,0,stadium,,Fruit,False,8
+Cinema Studio,-1022.00,-489.91,36.38,790,False,256000000000,0,0,500,1,555,0,0,0,cinemastudio,,Fruit,False,8
+Kortz Art Foundation,-2295.38,374.75,173.93,776,False,518000000000,0,0,500,1,555,0,0,0,artfoundation,,Fruit,False,8
+Observatory,-424.78,1125.00,325.25,564,False,1360000000000,0,0,500,1,570,0,0,0,observatory,,Fruit,False,8
+University,-1612.09,184.46,59.15,457,False,2720000000000,0,0,500,1,570,0,0,0,academy,,Fruit,False,8
+Exposition Gallery,-558.66,-641.74,32.62,176,False,5440000000000,0,0,500,1,570,0,0,0,museum,,Fruit,False,8
+Life Invader,-1042.08,-219.74,37.23,133,False,10880000000000,0,0,500,1,585,0,0,0,media,,Fruit,False,8
+Modern Art Gallery,-424.41,14.46,45.62,826,False,21760000000000,0,0,500,1,585,0,0,0,modernart,,Fruit,False,8
+Vinewood Hills Stage,655.70,594.89,128.45,280,False,43520000000000,0,0,500,1,585,0,0,0,stage,,Fruit,False,8
+Cypress Flats Factory,986.73,-2516.02,27.70,477,False,87040000000000,0,0,500,1,600,0,0,0,factory,,Fruit,False,8
+Los Santos Marine,-288.28,-2660.79,5.56,455,False,174080000000000,0,0,500,1,600,0,0,0,marine,,Fruit,False,8
+Fridgit Cold Storage,862.15,-1648.65,29.45,477,False,696320000000000,0,0,500,1,615,0,0,0,factory,,Fruit,False,8
+Tractor Parts,908.25,-1524.48,29.94,477,False,1392640000000000,0,0,500,1,615,0,0,0,factory,,Fruit,False,8
+The Secure Unit,906.08,-1259.26,24.99,477,False,0,0,0,500,1,615,0,0,0,factory,,Fruit,False,8
+La Fuenta Blanca,1370.64,1147.83,113.15,684,False,0,0,0,500,1,630,0,0,0,ridingstable,,Fruit,False,8
+Btoner Cement Factory,1219.23,1844.86,78.41,477,False,0,0,0,500,1,630,0,0,0,factory,,Fruit,False,8
+You Tool ,2760.23,3467.01,55.10,569,False,0,0,0,0,1,0,0,0,0,mall,,Fruit,False,8
+Davis Mega Mall,37.15,-1742.29,28.70,569,False,0,0,0,0,1,0,0,0,0,mall,,Fruit,False,8
+Clappers (Vinewood),386.26,179.14,102.47,628,False,0,0,0,0,1,0,0,0,0,restaurant,,Fruit,False,8
+Downton Cab Taxi,907.57,-175.92,73.53,198,False,0,0,0,0,1,0,0,0,0,taxi,,Fruit,False,8
+Rockford Plaza,-204.19,-83.29,50.49,569,False,0,0,0,0,1,0,0,0,0,mall,,Fruit,False,8
+Hookies,-2191.05,4263.13,47.82,628,False,0,0,0,0,1,0,0,0,0,restaurant,,Fruit,False,8
+Sawmill,-574.62,5328.38,69.61,477,False,0,0,0,0,1,0,0,0,0,sawmill,,Fruit,False,8
+Cluckin’ Bell Factory,-140.55,6201.73,30.61,795,False,0,0,0,0,1,0,0,0,0,chickenfarm,,Fruit,False,8
+Sisyphus Theater,227.94,1172.65,224.86,280,False,0,0,0,0,1,0,0,0,0,stage,,Fruit,False,8
+Vagos Cartel Cocain Factory,286.76,-2077.27,17.43,514,False,625000,0,0,100,1,30,0,0,0,drugs,,Cocain,False,1
+Ballas Street Weed Factory,74.95,-1936.98,20.99,496,False,5000,0,0,100,1,15,0,0,0,drugs,,Weed,False,1
+Families Hood Pills Factory,-213.82,-1616.97,34.87,51,False,25000,0,0,100,1,15,0,0,0,drugs,,Pill,False,1
+Lost MC Crack Factory,978.82,-142.18,73.60,497,False,125000,0,0,100,1,15,0,0,0,drugs,,Crack,False,1
+Little Seoul Meth Factory,-760.97,-911.43,19.49,499,False,3125000,0,0,100,1,30,0,0,0,drugs,,Meth,False,1

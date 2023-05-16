@@ -1,0 +1,2317 @@
+[
+  {
+    "Category": "Commercial",
+    "ModelName": "benson",
+    "Price": 100000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "biff",
+    "Price": 75000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "hauler",
+    "Price": 125000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "mule",
+    "Price": 27000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "packer",
+    "Price": 150000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "phantom",
+    "Price": 200000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "pounder",
+    "Price": 175000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "stockade",
+    "Price": 1800000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "blista",
+    "Price": 10000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "dilettante",
+    "Price": 25000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "issi2",
+    "Price": 18000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "prairie",
+    "Price": 25000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "cogcabrio",
+    "Price": 185000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "exemplar",
+    "Price": 205000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "f620",
+    "Price": 80000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "felon",
+    "Price": 90000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "felon2",
+    "Price": 95000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "jackal",
+    "Price": 60000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "oracle2",
+    "Price": 80000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "oracle",
+    "Price": 82000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "sentinel2",
+    "Price": 95000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "sentinel",
+    "Price": 60000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "zion",
+    "Price": 60000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "zion2",
+    "Price": 65000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "akuma",
+    "Price": 9000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "bagger",
+    "Price": 16000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "bati",
+    "Price": 15000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "bati2",
+    "Price": 15000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "daemon",
+    "Price": 17500
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "double",
+    "Price": 12000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "faggio2",
+    "Price": 5000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "hexer",
+    "Price": 15000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "nemesis",
+    "Price": 12000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "pcj",
+    "Price": 9000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "ruffian",
+    "Price": 10000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "sanchez2",
+    "Price": 8000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "sanchez",
+    "Price": 7000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "vader",
+    "Price": 9000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "buccaneer",
+    "Price": 29000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "dominator",
+    "Price": 30000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "gauntlet",
+    "Price": 32000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "hotknife",
+    "Price": 90000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "phoenix",
+    "Price": 15000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "picador",
+    "Price": 9000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "ratloader",
+    "Price": 6000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "ruiner",
+    "Price": 10000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "sabregt",
+    "Price": 15000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "vigero",
+    "Price": 21000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "voodoo2",
+    "Price": 5500
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "blazer",
+    "Price": 800
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "blazer2",
+    "Price": 62000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "bodhi2",
+    "Price": 25000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "dune",
+    "Price": 20000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "dloader",
+    "Price": 50000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "blazer3",
+    "Price": 69000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "bfinjection",
+    "Price": 16000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "mesa3",
+    "Price": 87000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "rancherxl",
+    "Price": 9000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "rebel2",
+    "Price": 22000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "rebel",
+    "Price": 3000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "sandking2",
+    "Price": 38000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "sandking",
+    "Price": 45000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "asea",
+    "Price": 12000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "asterope",
+    "Price": 26000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "emperor",
+    "Price": 20000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "fugitive",
+    "Price": 24000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "ingot",
+    "Price": 9000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "intruder",
+    "Price": 16000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "premier",
+    "Price": 10000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "primo",
+    "Price": 9000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "regina",
+    "Price": 8000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "romero",
+    "Price": 45000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "schafter2",
+    "Price": 65000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "stanier",
+    "Price": 10000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "stratum",
+    "Price": 10000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "stretch",
+    "Price": 30000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "superd",
+    "Price": 250000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "surge",
+    "Price": 38000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "tailgater",
+    "Price": 55000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "washington",
+    "Price": 15000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "ninef",
+    "Price": 120000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "ninef2",
+    "Price": 130000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "banshee",
+    "Price": 105000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "buffalo",
+    "Price": 35000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "buffalo2",
+    "Price": 96000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "carbonizzare",
+    "Price": 195000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "comet2",
+    "Price": 100000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "coquette",
+    "Price": 138000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "elegy2",
+    "Price": 95000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "feltzer2",
+    "Price": 145000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "fusilade",
+    "Price": 36000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "futo",
+    "Price": 9000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "penumbra",
+    "Price": 24000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "rapidgt",
+    "Price": 132000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "rapidgt2",
+    "Price": 140000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "schwarzer",
+    "Price": 80000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "sultan",
+    "Price": 12000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "surano",
+    "Price": 110000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "jb700",
+    "Price": 350000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "manana",
+    "Price": 10000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "monroe",
+    "Price": 490000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "peyote",
+    "Price": 38000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "stinger",
+    "Price": 850000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "stingergt",
+    "Price": 875000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "tornado",
+    "Price": 30000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "tornado2",
+    "Price": 32500
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "ztype",
+    "Price": 950000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "adder",
+    "Price": 1000000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "bullet",
+    "Price": 155000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "cheetah",
+    "Price": 650000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "entityxf",
+    "Price": 795000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "infernus",
+    "Price": 440000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "vacca",
+    "Price": 240000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "voltic",
+    "Price": 150000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "baller",
+    "Price": 50000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "baller2",
+    "Price": 90000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "bjxl",
+    "Price": 27000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "cavalcade",
+    "Price": 60000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "cavalcade2",
+    "Price": 70000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "dubsta",
+    "Price": 150000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "fq2",
+    "Price": 50000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "granger",
+    "Price": 35000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "gresley",
+    "Price": 29000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "habanero",
+    "Price": 42000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "landstalker",
+    "Price": 58000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "mesa",
+    "Price": 37000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "patriot",
+    "Price": 50000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "radi",
+    "Price": 32000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "rocoto",
+    "Price": 85000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "seminole",
+    "Price": 30000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "serrano",
+    "Price": 60000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "glendale",
+    "Price": 175000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "dubsta3",
+    "Price": 249000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "blade",
+    "Price": 160000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "rhapsody",
+    "Price": 140000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "panto",
+    "Price": 85000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "huntley",
+    "Price": 195000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "zentorno",
+    "Price": 725000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "massacro",
+    "Price": 275000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "thrust",
+    "Price": 75000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "turismor",
+    "Price": 500000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "jester",
+    "Price": 240000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "alpha",
+    "Price": 150000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "bifta",
+    "Price": 75000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "khamelion",
+    "Price": 100000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "dubsta2",
+    "Price": 70000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "bison",
+    "Price": 30000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "bobcatxl",
+    "Price": 23000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "burrito",
+    "Price": 35000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "camper",
+    "Price": 20000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "journey",
+    "Price": 15000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "minivan",
+    "Price": 30000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "pony",
+    "Price": 32500
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "rumpo",
+    "Price": 13000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "speedo",
+    "Price": 15000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "surfer",
+    "Price": 11000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "taco",
+    "Price": 13000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "verlierer",
+    "Price": 695000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "mamba",
+    "Price": 995000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "baller3",
+    "Price": 149000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "baller5",
+    "Price": 374000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "baller4",
+    "Price": 247000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "baller6",
+    "Price": 513000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "tampa",
+    "Price": 375000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "banshee2",
+    "Price": 565000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "sultanrs",
+    "Price": 795000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "btype3",
+    "Price": 982000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "faction3",
+    "Price": 695000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "slamvan3",
+    "Price": 415000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "virgo3",
+    "Price": 165000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "virgo2",
+    "Price": 240000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "tornado5",
+    "Price": 375000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "minivan2",
+    "Price": 330000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "sabregt2",
+    "Price": 490000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "windsor2",
+    "Price": 900000
+  },
+  {
+    "Category": "Service",
+    "ModelName": "brickade",
+    "Price": 555000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "bestiagts",
+    "Price": 610000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "fmj",
+    "Price": 1750000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "reaper",
+    "Price": 1595000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "xls",
+    "Price": 253000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "xls2",
+    "Price": 522000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "rumpo3",
+    "Price": 130000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "prototipo",
+    "Price": 2700000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "pfister811",
+    "Price": 1135000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "seven70",
+    "Price": 695000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "brioso",
+    "Price": 155000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "bf400",
+    "Price": 95000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "gargoyle",
+    "Price": 110000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "trophytruck2",
+    "Price": 695000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "trophytruck2",
+    "Price": 550000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "omnis",
+    "Price": 701000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "tropos",
+    "Price": 816000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "sheava",
+    "Price": 1995000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "le7b",
+    "Price": 2475000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "tyrus",
+    "Price": 2550000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "cliffhanger",
+    "Price": 225000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "lynx",
+    "Price": 1735000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "tampa2",
+    "Price": 995000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "rallytruck",
+    "Price": 1300000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "contender",
+    "Price": 250000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "avarus",
+    "Price": 116000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "chimera",
+    "Price": 210000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "defiler",
+    "Price": 450000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "faggio3",
+    "Price": 55000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "faggio",
+    "Price": 47500
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "hakuchou2",
+    "Price": 976000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "manchez",
+    "Price": 60000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "nightblade",
+    "Price": 100000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "ratbike",
+    "Price": 48000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "wolfsbane",
+    "Price": 95000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "zombiea",
+    "Price": 99000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "zombieb",
+    "Price": 122000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "blazer4",
+    "Price": 81000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "daemon2",
+    "Price": 145000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "rapidgt3",
+    "Price": 885000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "cyclone",
+    "Price": 1890000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "riata",
+    "Price": 380000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "yosemite",
+    "Price": 485000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "comet4",
+    "Price": 710000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "pariah",
+    "Price": 1420000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "raiden",
+    "Price": 1375000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "sc1",
+    "Price": 1603000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "sentinel3",
+    "Price": 550000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "streiter",
+    "Price": 500000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "hermes",
+    "Price": 535000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "autarch",
+    "Price": 1955000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "savestra",
+    "Price": 990000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "viseris",
+    "Price": 875000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "gt500",
+    "Price": 785000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "revolter",
+    "Price": 1610000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "neon",
+    "Price": 1500000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "kamacho",
+    "Price": 345000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "hustler",
+    "Price": 625000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "z190",
+    "Price": 900000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "comet5",
+    "Price": 1145000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "fagaloa",
+    "Price": 335000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "entity2",
+    "Price": 2305000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "taipan",
+    "Price": 1980000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "gb200",
+    "Price": 940000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "ellie",
+    "Price": 525000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "tezeract",
+    "Price": 2825000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "caracara",
+    "Price": 1775000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "flashgt",
+    "Price": 1675000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "issi3",
+    "Price": 300000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "dominator3",
+    "Price": 725000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "tyrant",
+    "Price": 2515000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "cheburek",
+    "Price": 145000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "michelli",
+    "Price": 1225000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "jester3",
+    "Price": 790000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "swinger",
+    "Price": 909000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "mule4",
+    "Price": 85000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "pounder2",
+    "Price": 300000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "patriot2",
+    "Price": 550000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "imorgon",
+    "Price": 2165000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "sultan2",
+    "Price": 1588500
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "outlaw",
+    "Price": 1268000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "vstr",
+    "Price": 1285000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "yosemite2",
+    "Price": 1208000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "sugoi",
+    "Price": 1124000
+  },
+  {
+    "Category": "Open Wheel",
+    "ModelName": "formula",
+    "Price": 3515000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "kanjo",
+    "Price": 45000
+  },
+  {
+    "Category": "Open Wheel",
+    "ModelName": "formula2",
+    "Price": 3115000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "stryder",
+    "Price": 552500
+  },
+  {
+    "Category": "Open Wheel",
+    "ModelName": "openwheel1",
+    "Price": 3400000
+  },
+  {
+    "Category": "Open Wheel",
+    "ModelName": "openwheel2",
+    "Price": 2997000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "tigon",
+    "Price": 2310000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "coquette4",
+    "Price": 1510000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "club",
+    "Price": 9000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "penumbra2",
+    "Price": 1380000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "landstalker2",
+    "Price": 1220000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "seminole2",
+    "Price": 678000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "dukes3",
+    "Price": 378000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "manana2",
+    "Price": 925000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "peyote3",
+    "Price": 620000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "glendale2",
+    "Price": 520000
+  },
+  {
+    "Category": "Vans",
+    "ModelName": "youga3",
+    "Price": 1288000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "yosemite3",
+    "Price": 700000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "gauntlet5",
+    "Price": 815000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "italirsx",
+    "Price": 3265000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "manchez2",
+    "Price": 225000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "squaddie",
+    "Price": 1130000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "verus",
+    "Price": 192000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "calico",
+    "Price": 1795000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "futo2",
+    "Price": 1390000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "euros",
+    "Price": 1650000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "dominator8",
+    "Price": 1120000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "zr350",
+    "Price": 1415000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "rt3000",
+    "Price": 1515000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "warrener2",
+    "Price": 1160000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "tailgater2",
+    "Price": 1375000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "jester4",
+    "Price": 1770000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "remus",
+    "Price": 1250000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "comet6",
+    "Price": 1878000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "dominator7",
+    "Price": 1575000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "vectre",
+    "Price": 1478000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "growler",
+    "Price": 1627000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "sultan3",
+    "Price": 1589000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "cypher",
+    "Price": 1255000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "previon",
+    "Price": 1270000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "jubilee",
+    "Price": 1650000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "champion",
+    "Price": 3750000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "astron",
+    "Price": 1580000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "cinquemila",
+    "Price": 1740000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "deity",
+    "Price": 1845000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "ignus",
+    "Price": 2765000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "buffalo4",
+    "Price": 2150000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "zeno",
+    "Price": 2820000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "baller7",
+    "Price": 890000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "patriot3",
+    "Price": 1710000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "comet7",
+    "Price": 1797000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "shinobi",
+    "Price": 2480500
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "iwagen",
+    "Price": 1729000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "granger2",
+    "Price": 1750000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "reever",
+    "Price": 1900000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "s95",
+    "Price": 1995000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "arbitergt",
+    "Price": 1580000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "astron2",
+    "Price": 1720000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "cyclone2",
+    "Price": 2250000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "corsita",
+    "Price": 1795000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "greenwood",
+    "Price": 1098750
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "omnisegt",
+    "Price": 1795000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "torero2",
+    "Price": 2890000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "lm87",
+    "Price": 2915000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "sm722",
+    "Price": 2115000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "draugur",
+    "Price": 1670000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "ruiner4",
+    "Price": 1320000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "brioso3",
+    "Price": 585000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "vigero2",
+    "Price": 1947000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "postlude",
+    "Price": 982500
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "kanjosj",
+    "Price": 1170000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "tenf",
+    "Price": 1675000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "rhinehart",
+    "Price": 1598000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "weevil2",
+    "Price": 980000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "tenf2",
+    "Price": 2175000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "sentinel4",
+    "Price": 700000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "tulip2",
+    "Price": 1658000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "entity3",
+    "Price": 2355000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "r300",
+    "Price": 2075000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "manchez3",
+    "Price": 275000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "tahoma",
+    "Price": 1500000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "powersurge",
+    "Price": 1605000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "issi8",
+    "Price": 1835000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "broadway",
+    "Price": 925000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "panthere",
+    "Price": 2170000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "everon2",
+    "Price": 1342500
+  },
+  {
+    "Category": "Super",
+    "ModelName": "virtue",
+    "Price": 2980000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "eudora",
+    "Price": 1250000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "boor",
+    "Price": 1280000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "warrener",
+    "Price": 120000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "pigalle",
+    "Price": 400000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "sovereign",
+    "Price": 90000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "liberator",
+    "Price": 556511
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "coquette2",
+    "Price": 665000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "hakuchou",
+    "Price": 82000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "innovation",
+    "Price": 92500
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "furoregt",
+    "Price": 448000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "stallion",
+    "Price": 71000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "blista2",
+    "Price": 42000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "guardian",
+    "Price": 375000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "enduro",
+    "Price": 48000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "lectro",
+    "Price": 850000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "insurgent",
+    "Price": 900000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "kuruma",
+    "Price": 120000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "kuruma2",
+    "Price": 650000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "casco",
+    "Price": 800000
+  },
+  {
+    "Category": "Coupes",
+    "ModelName": "windsor",
+    "Price": 845000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "virgo",
+    "Price": 195000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "feltzer3",
+    "Price": 975000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "osiris",
+    "Price": 1950000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "vindicator",
+    "Price": 630000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "chino",
+    "Price": 225000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "coquette3",
+    "Price": 695000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "brawler",
+    "Price": 715000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "t20",
+    "Price": 2200000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "buccaneer2",
+    "Price": 390000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "chino2",
+    "Price": 180000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "faction",
+    "Price": 36000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "faction2",
+    "Price": 335000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "moonbeam",
+    "Price": 32500
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "moonbeam2",
+    "Price": 370000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "voodoo",
+    "Price": 420000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "primo2",
+    "Price": 400000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "nightshade",
+    "Price": 585000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "cognoscenti",
+    "Price": 254000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "cognoscenti2",
+    "Price": 558000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "cog55",
+    "Price": 154000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "cog552",
+    "Price": 396000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "schafter6",
+    "Price": 438000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "schafter5",
+    "Price": 325000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "schafter4",
+    "Price": 208000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "schafter3",
+    "Price": 116000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "raptor",
+    "Price": 648000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "vortex",
+    "Price": 356000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "esskey",
+    "Price": 264000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "diabolus",
+    "Price": 169000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "diabolus2",
+    "Price": 245000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "elegy",
+    "Price": 904000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "penetrator",
+    "Price": 880000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "tempesta",
+    "Price": 1329000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "nero",
+    "Price": 1440000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "nero2",
+    "Price": 2000000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "comet3",
+    "Price": 645000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "fcr",
+    "Price": 135000
+  },
+  {
+    "Category": "Motorcycles",
+    "ModelName": "fcr2",
+    "Price": 196000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "italigtb",
+    "Price": 1189000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "italigtb2",
+    "Price": 1700000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "specter",
+    "Price": 599000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "specter2",
+    "Price": 875000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "gp1",
+    "Price": 1260000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "ruston",
+    "Price": 430000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "infernus2",
+    "Price": 915000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "turismo2",
+    "Price": 705000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "hauler2",
+    "Price": 1400000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "phantom2",
+    "Price": 1225000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "vagner",
+    "Price": 1535000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "cheetah2",
+    "Price": 865000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "torero",
+    "Price": 998000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "nightshark",
+    "Price": 1245000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "xa21",
+    "Price": 2375000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "ardent",
+    "Price": 1150000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "retinue",
+    "Price": 615000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "visione",
+    "Price": 2250000
+  },
+  {
+    "Category": "Sedans",
+    "ModelName": "stafford",
+    "Price": 1272000
+  },
+  {
+    "Category": "Commercial",
+    "ModelName": "terrorbyte",
+    "Price": 1375000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "menacer",
+    "Price": 1775000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "freecrawler",
+    "Price": 597000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "impaler",
+    "Price": 300000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "toros",
+    "Price": 498000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "clique",
+    "Price": 909000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "italigto",
+    "Price": 1965000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "tulip",
+    "Price": 718000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "schlagengt",
+    "Price": 1300000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "deviant",
+    "Price": 512000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "vamos",
+    "Price": 596000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "deveste",
+    "Price": 1795000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "thrax",
+    "Price": 2325000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "s80",
+    "Price": 2575000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "paragonr",
+    "Price": 905000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "paragonr2",
+    "Price": 1555000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "drafter",
+    "Price": 718000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "issi7",
+    "Price": 897000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "caracara2",
+    "Price": 875000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "neo",
+    "Price": 1875000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "gauntlet3",
+    "Price": 525000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "emerus",
+    "Price": 2750000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "nebula",
+    "Price": 797000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "locust",
+    "Price": 1625000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "gauntlet4",
+    "Price": 745000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "krieger",
+    "Price": 2875000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "zion3",
+    "Price": 812000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "hellion",
+    "Price": 835000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "jugular",
+    "Price": 1125000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "dynasty",
+    "Price": 450000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "zorusso",
+    "Price": 1925000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "novak",
+    "Price": 608000
+  },
+  {
+    "Category": "Muscle",
+    "ModelName": "peyote2",
+    "Price": 805000
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "vagrant",
+    "Price": 1860500
+  },
+  {
+    "Category": "Off-Road",
+    "ModelName": "everon",
+    "Price": 1275000
+  },
+  {
+    "Category": "Sports Classics",
+    "ModelName": "retinue2",
+    "Price": 1420000
+  },
+  {
+    "Category": "Compacts",
+    "ModelName": "asbo",
+    "Price": 35000
+  },
+  {
+    "Category": "Sports",
+    "ModelName": "komoda",
+    "Price": 1500000
+  },
+  {
+    "Category": "SUVs",
+    "ModelName": "rebla",
+    "Price": 1175000
+  },
+  {
+    "Category": "Super",
+    "ModelName": "furia",
+    "Price": 2455000
+  }
+]
