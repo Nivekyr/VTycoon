@@ -2,20 +2,16 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Windows;
 using GTA;
 using GTA.Math;
 using GTA.UI;
 using GTA.Native;
 using LemonUI;
-using LemonUI.Elements;
 using LemonUI.Menus;
-using System.Globalization;
 using System.Drawing;
 using Newtonsoft.Json;
 using Numerics = System.Numerics;
 using static VTycoon.Main;
-using System.Diagnostics;
 using static VTycoon.ItemManager;
 
 namespace VTycoon
@@ -27,10 +23,11 @@ namespace VTycoon
 
         private DateTime lastPriceUpdate;
         private DateTime lastEventGeneration;
+        private DateTime lastHarvest;
         public List<MarketEvent> MarketEvents { get; set; }
         public MarketEvent CurrentMarketEvent { get; set; }
 
-        public List<MarketSeller> MarketSellers { get; set; }
+        public List<Harvestable> Harvestables { get; set; }
 
         private List<CraftingRecipe> CraftingRecipes { get; set; }
         private List<CraftingLocation> CraftingLocations { get; set; }
@@ -42,22 +39,25 @@ namespace VTycoon
 
 
         private Vector3 stockExchangeLocation = new Vector3(-157.25f, -604.48f, 48.24f);
-        private const float InteractionRange = 10.0f; // La distance maximale à laquelle le joueur peut interagir avec l'entreprise
+        private const float InteractionRange = 2.5f; // La distance maximale à laquelle le joueur peut interagir avec l'entreprise
         private const Control InteractionKey = Control.Context; // La touche que le joueur doit appuyer pour interagir avec l'entreprise
 
         private const Control InventoryKey = Control.CinematicSlowMo;
         private NativeMenu stockExchangeMenu;
-        private NativeMenu marketSellerMenu;
         private NativeMenu inventoryMenu;
         private NativeMenu craftingMenu;
 
+        private bool isHarvesting = false;
+
+        Ped player = Game.Player.Character;
+        bool isPlayerMoving = false;
 
         public ItemManager()
         {
             itemManagerInstance = this;
             LoadMarketSellersFromCsv();
             LoadMarketEventsFromCsv();
-            CreateBlipsForMarketSellers(MarketSellers);
+            CreateBlipsForHarvestable(Harvestables);
             LoadCraftingLocations("scripts\\VTycoon\\crafting_locations.csv");
             LoadCraftingRecipes("scripts\\VTycoon\\crating_recipes.csv");
             CreateBlipForCraftingLocation();
@@ -69,6 +69,7 @@ namespace VTycoon
             Tick += OnTick;
             Interval = 1;
             lastPriceUpdate = DateTime.Now;
+            lastEventGeneration= DateTime.Now;
 
             foreach (ItemData item in ItemsList)
             {
@@ -85,12 +86,33 @@ namespace VTycoon
             return ItemsList.FirstOrDefault(item => item.Name == name);
         }
 
+
         private void OnTick(object sender, EventArgs e)
         {
-            Vector3 playerPosition = Game.Player.Character.Position;
+            Vector3 playerPosition = player.Position;
+
+            if (player.IsWalking || player.IsRunning || player.IsJumping)
+            {
+                isPlayerMoving = true;
+            }
+            else
+            {
+                isPlayerMoving = false;
+            }
+
+            if (playerPosition.DistanceTo(stockExchangeLocation) <= 25f)
+            {
+                Vector3 direction = new Vector3(0, 0, 0);
+                Vector3 rotation = new Vector3(0, 0, 0);
+                Vector3 scale = new Vector3(1.0f, 1.0f, 1.0f);
+                Color color = Color.FromArgb(150, 255, 0, 0);
+                Vector3 position = new Vector3(stockExchangeLocation.X, stockExchangeLocation.Y, stockExchangeLocation.Z - 0.95f);
+                GTA.World.DrawMarker(MarkerType.HorizontalCircleSkinny, position, direction, rotation, scale, color, false, true, false);
+            }
 
             if (playerPosition.DistanceTo(stockExchangeLocation) <= InteractionRange)
             {
+                
                 if (Game.IsControlPressed(InteractionKey))
                 {
                     if (stockExchangeMenu == null || !stockExchangeMenu.Visible)
@@ -100,24 +122,65 @@ namespace VTycoon
                 }
             }
 
-            foreach(MarketSeller marketSeller in MarketSellers)
+            foreach(Harvestable harvestable in Harvestables)
             {
-                if (playerPosition.DistanceTo(marketSeller.Position) <= InteractionRange)
+                if (playerPosition.DistanceTo(harvestable.Position) <= 25f)
                 {
+                    Vector3 direction = new Vector3(0, 0, 0);
+                    Vector3 rotation = new Vector3(0, 0, 0); 
+                    Vector3 scale = new Vector3(1.0f, 1.0f, 1.0f); 
+                    Color color = Color.FromArgb(150, 64, 224, 208);
+                    Vector3 position = new Vector3(harvestable.Position.X, harvestable.Position.Y, harvestable.Position.Z - 0.95f);
+                    GTA.World.DrawMarker(MarkerType.HorizontalCircleSkinny, position, direction, rotation, scale, color, false, true, false);
+                }
+
+                if (playerPosition.DistanceTo(harvestable.Position) <= InteractionRange)
+                {
+
+                    ItemData itemToHarvest = ItemsList.FirstOrDefault(item => item.Name == harvestable.ItemHarvest);
                     if (Game.IsControlPressed(InteractionKey))
                     {
-                        if (marketSellerMenu == null || !marketSellerMenu.Visible)
+                        if (itemToHarvest != null)
                         {
-                            CreateMarketSellerMenu(marketSeller);
+                            player.Task.PlayAnimation(harvestable.animDict, harvestable.animName, 8f, 100000, AnimationFlags.AbortOnPedMovement);
+                            isHarvesting = true;
+                            lastHarvest = DateTime.Now;
+
+                        } else
+                        {
+                            Notification.Show("Item null");
                         }
                     }
+                    if (isHarvesting)
+                    {
+                        HarvestItem(itemToHarvest, harvestable.animDict, harvestable.animName);
+                    }
+
+                    if (isPlayerMoving)
+                    {
+                        isHarvesting = false;
+                    }
+
                 }
+
             }
+
 
             foreach (CraftingLocation crafting in CraftingLocations)
             {
+                if (playerPosition.DistanceTo(crafting.Position) <= 25f)
+                {
+                    Vector3 direction = new Vector3(0, 0, 0);
+                    Vector3 rotation = new Vector3(0, 0, 0);
+                    Vector3 scale = new Vector3(1.0f, 1.0f, 1.0f);
+                    Color color = Color.FromArgb(150, 128, 0, 128);
+                    Vector3 position = new Vector3(stockExchangeLocation.X, stockExchangeLocation.Y, stockExchangeLocation.Z - 0.95f);
+                    GTA.World.DrawMarker(MarkerType.HorizontalCircleSkinny, position, direction, rotation, scale, color, false, true, false);
+                }
+
                 if (playerPosition.DistanceTo(crafting.Position) <= InteractionRange)
                 {
+                    
                     if (Game.IsControlPressed(InteractionKey))
                     {
                         if (craftingMenu == null || !craftingMenu.Visible)
@@ -166,14 +229,14 @@ namespace VTycoon
 
         }
 
-        public void CreateBlipsForMarketSellers(List<MarketSeller> marketSellers)
+        public void CreateBlipsForHarvestable(List<Harvestable> harvestables)
         {
-            foreach (MarketSeller marketSeller in marketSellers)
+            foreach (Harvestable harvestable in harvestables)
             {
-                    Blip blip = World.CreateBlip(marketSeller.Position);
-                    blip.Sprite = (BlipSprite)marketSeller.BlipSprite;
+                    Blip blip = World.CreateBlip(harvestable.Position);
+                    blip.Sprite = (BlipSprite)harvestable.BlipSprite;
                     blip.Color = BlipColor.NetPlayer25;
-                    blip.Name = marketSeller.Name;
+                    blip.Name = harvestable.Name;
                     blip.IsShortRange = true;
             }
         }
@@ -310,32 +373,6 @@ namespace VTycoon
             stockExchangeMenu.Visible = true;
         }
 
-        public void CreateMarketSellerMenu(MarketSeller marketSeller)
-        {
-            marketSellerMenu = new NativeMenu(marketSeller.Name);
-            InstanceMain.pool.Add(marketSellerMenu);
-
-
-            foreach (ItemData item in ItemsList)
-            {
-                if (item.SubType == marketSeller.ItemSubTypeSold)
-                {
-                    NativeItem nativeItem = new NativeItem(item.Name + " x1", InstanceMain.ConvertMoneyToString(item.Price / 2).ToString() + "$");
-                    marketSellerMenu.Add(nativeItem);
-                    nativeItem.Activated += (sender, selectedItem) => BuyItem(item, 1);
-
-                    NativeItem nativeItem10 = new NativeItem(item.Name + " x10", InstanceMain.ConvertMoneyToString((item.Price * 10) / 2).ToString() + "$");
-                    marketSellerMenu.Add(nativeItem10);
-                    nativeItem10.Activated += (sender, selectedItem) => BuyItem(item, 10);
-
-                    NativeItem nativeItem100 = new NativeItem(item.Name + " x100", InstanceMain.ConvertMoneyToString((item.Price * 100) / 2).ToString() + "$");
-                    marketSellerMenu.Add(nativeItem100);
-                    nativeItem100.Activated += (sender, selectedItem) => BuyItem(item, 100);
-                }
-            }
-            marketSellerMenu.Visible = true;
-        }
-
         public void CreateInventoryMenu()
         {
             inventoryMenu = new NativeMenu("Inventory");
@@ -357,37 +394,42 @@ namespace VTycoon
             inventoryMenu.Visible= true;
         }
 
-        public void BuyItem(ItemData itemBought, int quantity)
+        public void HarvestItem(ItemData itemData, string animDict, string animName)
         {
-            if (actualWeight + (itemBought.Weight * quantity) < maxWeightOnPlayer)
+            if (isHarvesting == false)
             {
-                if ((itemBought.Price * quantity) / 2 < InstanceMain.modMoney)
+                return;
+            }
+            else
+            {
+                if ((DateTime.Now - lastHarvest).TotalSeconds >= 10)
                 {
-                    InstanceMain.modMoney -= (itemBought.Price * quantity) / 2;
-                    actualWeight += itemBought.Weight * quantity;
-                    InventoryItem existingItem = InstanceMain.inventoryItems.FirstOrDefault(item => item.Item == itemBought);
-                    if (existingItem != null)
+                    if (actualWeight + (itemData.Weight) < maxWeightOnPlayer)
                     {
-                        existingItem.Quantity += quantity;
+                        actualWeight += itemData.Weight;
+                        InventoryItem existingItem = InstanceMain.inventoryItems.FirstOrDefault(item => item.Item == itemData);
+                        if (existingItem != null)
+                        {
+                            existingItem.Quantity++;
+                        }
+                        else
+                        {
+                            InstanceMain.inventoryItems.Add(new InventoryItem { Item = itemData, Quantity = 1 });
+                        }
+                        InstanceMain.SaveAllData();
+                        Notification.Show("+1 " + itemData.Name);
                     }
                     else
                     {
-                        InstanceMain.inventoryItems.Add(new InventoryItem { Item = itemBought, Quantity = 1 });
+                        Notification.Show("You can't carry more item on you !");
+                        isHarvesting = false;
                     }
+                    player.Task.PlayAnimation(animDict, animName, 8f, 1100000, AnimationFlags.AbortOnPedMovement);
+                    lastHarvest = DateTime.Now;
+
                 }
-                else
-                {
-                    Notification.Show("Not enough money to buy this ! ");
-                }
-                InstanceMain.SaveAllData();
-            } else
-            {
-                Notification.Show("You can't carry more item on you !");
             }
         }
-
-
-
 
         public void UpdateItemPrice(ItemData item, Numerics.BigInteger newPrice)
         {
@@ -514,7 +556,7 @@ namespace VTycoon
 
         public void LoadMarketSellersFromCsv()
         {
-            MarketSellers = new List<MarketSeller>();
+            Harvestables = new List<Harvestable>();
 
             using (StreamReader sr = new StreamReader("scripts\\VTycoon\\marketsellers.csv"))
             {
@@ -523,16 +565,17 @@ namespace VTycoon
                 {
                     string[] values = line.Split(',');
 
-                    MarketSeller marketSeller = new MarketSeller
+                    Harvestable harvestable = new Harvestable
                     {
                         Name = values[0],
                         Position = new Vector3(float.Parse(values[1]), float.Parse(values[2]), float.Parse(values[3])),
-                        ItemSubTypeSold = values[4],
+                        ItemHarvest = values[4],
                         BlipSprite = int.Parse(values[5]),
-                        Tier = int.Parse(values[6])
+                        animDict = values[6],
+                        animName = values[7]
                     };
 
-                    MarketSellers.Add(marketSeller);
+                    Harvestables.Add(harvestable);
                 }
             }
         }
@@ -673,14 +716,16 @@ namespace VTycoon
             public string NewsMessage { get; set; }
         }
 
-        public class MarketSeller
+        public class Harvestable
         {
             public string Name { get; set; }
             public Vector3 Position { get; set; }
-            public string ItemSubTypeSold { get; set; }
+            public string ItemHarvest { get; set; }
             public int BlipSprite { get; set; }
 
-            public int Tier { get ; set; }
+            public string animDict { get; set; }
+
+            public string animName { get; set; }
         }
 
         public class InventoryItem

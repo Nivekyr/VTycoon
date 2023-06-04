@@ -98,11 +98,30 @@ namespace VTycoon
                 // Trouver l'entreprise la plus proche du joueur et vérifier si elle est à portée
                 foreach (BusinessData business in businessData)
                 {
+                    if (playerPosition.DistanceTo(business.Position) <= 25f)
+                    {
+                        Vector3 direction = new Vector3(0, 0, 0);
+                        Vector3 rotation = new Vector3(0, 0, 0);
+                        Vector3 scale = new Vector3(1.0f, 1.0f, 1.0f);
+                        Color color = Color.FromArgb(155, 154, 205, 50);
+                        Vector3 position = new Vector3(business.Position.X, business.Position.Y, business.Position.Z - 0.95f);
+                        GTA.World.DrawMarker(MarkerType.HorizontalCircleSkinny, position, direction, rotation, scale, color, false, true, false);
+                    }
+
                     float distance = Vector3.Distance(Game.Player.Character.Position, business.Position);
                     if (distance < closestDistance)
                     {
                         closestDistance = distance;
                         closestBusiness = business;
+                    }
+
+                    if (business.Purchased && business.StoreInventory > 0)
+                    {
+                        if (Game.GameTime - businessTimers[business.Name] >= business.Interval * 1000)
+                        {
+                            GenerateRevenue(business);
+                            businessTimers[business.Name] = Game.GameTime;
+                        }
                     }
                 }
 
@@ -117,17 +136,6 @@ namespace VTycoon
                     if (Game.IsControlJustPressed(InteractionKey))
                     {
                         CreateBusinessMenu(closestBusiness);
-                    }
-                }
-            }
-            foreach (BusinessData business in businessData)
-            {
-                if (business.Purchased && business.StoreInventory > 0)
-                {
-                    if (Game.GameTime - businessTimers[business.Name] >= business.Interval * 1000)
-                    {
-                        GenerateRevenue(business);
-                        businessTimers[business.Name] = Game.GameTime;
                     }
                 }
             }
@@ -813,7 +821,6 @@ namespace VTycoon
         public List<InventoryItem> Inventory;
         public PlayerData()
         {
-            Inventory = new List<InventoryItem>();
             VehicleStorageUpgrades = new Dictionary<VehicleClass, int>();
             BusinessUpgrades = new Dictionary<string, int>();
             StoredVehicles = new List<VehicleData>(); // Initialisez la liste ici
